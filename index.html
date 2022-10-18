@@ -13,25 +13,21 @@
     <script src='Assets/Script.js'></script>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Info <img src="Assets/Images/bell.png" alt="" width="35" height="30" class="d-inline-block align-text-top"> JAX
-          </a>
-        </div>
-      </nav>
+    
+<!--Navbar/Search bar-->
+      <ul class="nav justify-content-center fixed-top bg-primary">
+        <li class="nav-item">
+          <h1 style="text-align:Center; Color: White;"><b>Q U I U B O</b></h1>
+          <a class="nav-link active" href="#"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar contenido"></a>
+        </li>
+      </ul>
+      
       <br>
-      <br>
-      <nav class="navbar sticky-top bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Sticky top</a>
-        </div>
-      </nav>
 
-
+<!--Ticker-->
       <div class="container">
         <div class="hwrap"><div class="hmove">
-          <div class="hitem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <div class="hitem">Hello hello.</div>
           <div class="hitem">Aliquam consequat varius consequat.</div>
           <div class="hitem">Fusce dapibus turpis vel nisi malesuada sollicitudin.</div>
           <div class="hitem">Pellentesque auctor molestie orci ut blandit <a href="https://www.google.com/maps/dir/30.1760512,-81.8413568/la+peque%C3%B1ita+utah/@34.6152931,-114.9386994,4z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x87528ae91158088b:0x2cf09820a22bdb51!2m2!1d-111.8885429!2d40.7116602" target="_blank">Here</a>.</div>
@@ -43,202 +39,206 @@
     </div>-->
 
     <br>
-    
+
+<!--Searchable content-->
     <div class="d-flex justify-content-center">
         <div>
-            <div class="card" style="width: 18rem;">
-                <img src="Assets/Images/Orange & Black Illustration Halloween Party Your Story (1).png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Carniceria 2 Hermanos</h5>
-                  <p class="card-text">Envia tu dinero a todo Mexico por Barri.</p>
-                  <a href="#" class="btn btn-success">Find Us</a>
+          <table id="myTable">
+            <tr class="header">
+              <th style="width:60%;"><br></th>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <!--<img src="..." class="card-img-top" alt="...">-->
+                  <div class="card-body">
+                    <h5 class="card-title">Ranchito Market</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-success">Find Us</a>
+                    <a href="#" class="btn btn-info">Call Us</a>
+                  </div>
                 </div>
-              </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">32065</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                    <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="Assets/Images/Orange & Black Illustration Halloween Party Your Story.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">La Hacienda</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <video src="Assets/Images/Video.mp4" controls></video>
+                  <div class="card-body">
+                    <h5 class="card-title">Envios Tres Amigos</h5>
+                    <p class="card-text">Envía dinero a toda tu familia desde nuestra agencia.</p>
+                    <a href="#" class="btn btn-success">Find Us</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="Assets/Images/food.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="Assets/Images/barri.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Envios de Dinero MAX</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <!--<img src="..." class="card-img-top" alt="...">-->
+                  <div class="card-body">
+                    <h5 class="card-title">Ranchito Market</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-success">Find Us</a>
+                    <a href="#" class="btn btn-info">Call Us</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="Assets/Images/ria.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ria Money Transfer</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Our Website</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <!--<img src="..." class="card-img-top" alt="...">-->
+                  <div class="card-body">
+                    <h5 class="card-title">Envios Chapín</h5>
+                    <p class="card-text">En Envios Chapín te damos el mejor tipo de cambio!</p>
+                    <a href="www.westerunion.com" target="_blank" class="btn btn-primary">Website</a>
+                    <a href="https://www.google.com/maps/dir/4190+Plantation+Oaks+Blvd,+Orange+Park,+FL+32065,+USA/EL+Supremo+Tienda+Latina,+8968+103rd+St,+Jacksonville,+FL+32210/@30.2097945,-81.8571876,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88e5c2204d1420cf:0x689d1d446bf771b6!2m2!1d-81.8438337!2d30.1776311!1m5!1m1!1s0x88e5c1da20984227:0x5330a3a35a46fec2!2m2!1d-81.8015438!2d30.2474387!3e0"  target="_blank"  class="btn btn-success">Find Us</a>
+                    <a href="#" class="btn btn-info ">Call Us</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="Assets/Images/dolex.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dolex</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="Assets/Images/money.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Envios de Dinero Rapido</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-success">Find Us</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="Assets/Images/sigue.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Sigue Money Transfer</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Find Us</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="Assets/Images/ria.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ria Money Transfer</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Our Website</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="Assets/Images/barriadd.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Barri Financial Group</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Find Us</a>
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+          </table>
         </div>
     </div>
 
-    <br>
-
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <!--<img src="..." class="card-img-top" alt="...">-->
-                <div class="card-body">
-                  <h5 class="card-title">Ranchito Market</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-success">Find Us</a>
-                  <a href="#" class="btn btn-info">Call Us</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-    
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="Assets/Images/barri.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Envios de Dinero MAX</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="Assets/Images/Orange & Black Illustration Halloween Party Your Story.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">La Hacienda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-    
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="Assets/Images/ria.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Ria Money Transfer</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Our Website</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="d-flex justify-content-center">
-      <div>
-          <div class="card" style="width: 18rem;">
-              <video src="Assets/Images/Video.mp4" controls></video>
-              <div class="card-body">
-                <h5 class="card-title">Envios Tres Amigos</h5>
-                <p class="card-text">Envía dinero a toda tu familia desde nuestra agencia.</p>
-                <a href="#" class="btn btn-success">Find Us</a>
-              </div>
-            </div>
-      </div>
-  </div>
-
-  <br>
-
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <!--<img src="..." class="card-img-top" alt="...">-->
-                <div class="card-body">
-                  <h5 class="card-title">Los Lagos Market</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-success">Find Us</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-    
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="Assets/Images/dolex.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Dolex</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="Assets/Images/money.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Envios de Dinero Rapido</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-success">Find Us</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-    
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="Assets/Images/sigue.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Sigue Money Transfer</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Find Us</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="Assets/Images/barriadd.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Barri Financial Group</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Find Us</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-    
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <!--<img src="..." class="card-img-top" alt="...">-->
-                <div class="card-body">
-                  <h5 class="card-title">Envios Chapín</h5>
-                  <p class="card-text">En Envios Chapín te damos el mejor tipo de cambio!</p>
-                  <a href="www.westerunion.com" target="_blank" class="btn btn-primary">Website</a>
-                  <a href="https://www.google.com/maps/dir/4190+Plantation+Oaks+Blvd,+Orange+Park,+FL+32065,+USA/EL+Supremo+Tienda+Latina,+8968+103rd+St,+Jacksonville,+FL+32210/@30.2097945,-81.8571876,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88e5c2204d1420cf:0x689d1d446bf771b6!2m2!1d-81.8438337!2d30.1776311!1m5!1m1!1s0x88e5c1da20984227:0x5330a3a35a46fec2!2m2!1d-81.8015438!2d30.2474387!3e0"  target="_blank"  class="btn btn-success">Find Us</a>
-                  <a href="#" class="btn btn-info ">Call Us</a>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="Assets/Images/food.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-    </div>
+    <!--Old content-->
 
 </body>
 </html>
